@@ -1,0 +1,235 @@
+.commentOutline
+{
+  fill: none;
+  stroke: #77ccdd;
+  stroke-linecap: square;
+  stroke-width: 2px;
+}
+
+.commentOutline.selected
+{
+  stroke: #ffffff;
+}
+
+.commentHandle
+{
+  fill: #77ccdd;
+  fill-opacity: 0.25;
+  stroke: #77ccdd;
+  stroke-linecap: square;
+  stroke-width: 1px;
+}
+
+.commentHandle.selected
+{
+  stroke: #ffffff;
+}
+
+.commentLabel
+{
+  cursor: default;
+  fill: #e2e2e2;
+  font-family: 'Roboto', arial, serif;
+  font-size: 12px;
+  text-anchor: start;
+}
+
+.connection
+{
+  fill-opacity: 0;
+  stroke: #63b4d7;
+  stroke-linecap: square;
+  stroke-opacity: 0.5;
+  stroke-width: 1.25;
+}
+
+.connectionMarker
+{
+  fill: #63b4d7;
+  fill-opacity: 0.80;
+}
+
+.marquee
+{
+  background-color: rgba(119, 204, 221, 0.25);
+  border-color: #77ccdd;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.node
+{
+  fill: #ffffff;
+}
+
+.node.selected
+{
+  fill: #ffffff;
+}
+
+.nodeOutline
+{
+  fill-opacity: 0;
+  stroke-opacity: 0;
+  stroke-width: 0px;
+}
+
+.nodeSelectionInner
+{
+  stroke: #000000;
+  stroke-linecap: round;
+  stroke-width: 0px;
+}
+
+.nodeSelectionInner.selected, .nodeSelectionInner.hover
+{
+  stroke-width: 8px;
+}
+
+.nodeSelectionOuter
+{
+  stroke: #000000;
+  stroke-linecap: round;
+  stroke-width: 0px;
+}
+
+.nodeSelectionOuter.selected
+{
+  stroke: #3892c8;
+  stroke-width: 16px;
+}
+
+.nodeSelectionOuter.hover
+{
+  stroke: #ffffff;
+  stroke-width: 16px;
+}
+
+.nodeTitle
+{
+  cursor: default;
+  font-family: 'Roboto', arial, serif;
+  font-size: 12px;
+  text-anchor: start;
+}
+
+.nodeTitleBar
+{
+  fill: #78ccf3;
+}
+
+.nodeTitleBar.selected
+{
+  fill: #76d8ff;
+}
+
+.nodeTitleBarOutline
+{
+  fill: none;
+  stroke: #000000;
+  stroke-linecap: square;
+  stroke-opacity: 0.5;
+  stroke-width: 1px;
+}
+
+.nodeGraphBackground
+{
+  background-color: #222222;
+}
+
+.plugLabel
+{
+  cursor: default;
+  fill: #808285;
+  font-family: 'Roboto', arial, serif;
+  font-size: 12px;
+  text-anchor: start;
+}
+
+.plugLabel.connected
+{
+  fill: #000000;
+}
+
+.plugInside
+{
+  fill: #d1d3d4;
+  stroke-width: 0px;
+}
+
+.plugInside.connected
+{
+  fill: #8dc63f;
+}
+
+.plugInsideBorder
+{
+  fill: none;
+  stroke: #939598;
+  stroke-linecap: square;
+  stroke-width: 2px;
+}
+
+.plugInsideBorder.connected
+{
+  stroke: #47631f;
+}
+
+.plugOutside
+{
+  fill: #ffffff;
+  stroke: #ffffff;
+  stroke-width: 1px;
+}
+
+.plugOutside.connected
+{
+  fill: #78ccf3;
+  stroke: #78ccf3;
+}
+
+.addButton
+{
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-linecap: square;
+  stroke-width: 1px;
+}
+
+.addButton:hover
+{
+  stroke: #77ccdd;
+}
+
+.removeButton
+{
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-linecap: square;
+  stroke-width: 1px;
+}
+
+.removeButton:hover
+{
+  stroke: #77ccdd;
+}
+
+.previewButton
+{
+  fill: #ffffff;
+  stroke: #000000;
+  stroke-linecap: square;
+  stroke-width: 1px;
+}
+
+.previewButton:hover
+{
+  stroke: #77ccdd;
+}
+
+.grid
+{
+  fill: none;
+  stroke: #313131;
+  stroke-width: 1px;
+}
